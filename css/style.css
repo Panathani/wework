@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+:root {
+  --light-green: #a3c6c2;
+  --dark-green: #86a9a5;
+  --yellow-cream: #fbf9dd;
+  --blue: #bee0e2;
+  --light-blue: #e2f8f5;
+}
+
+.bg-light-green {
+  background-color: var(--light-green) !important
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 450px;
+  background-color: #898989;
+}
+
+.carousel-item {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  backface-visibility: hidden;
+  height: 450px;
+}
+
+.carousel-item>img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  max-width: 100%;
+  height: 100%;
+}
+
+.partner {
+  border-radius: 50%;
+  width: 100px;
+  height: auto;
+  padding: 10px;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: var(--bs-green) !important
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* company-applicant */
+.table-responsive {
+  margin: 30px 0;
+}
+
+.table-wrapper {
+  min-width: 1000px;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+}
+
+.table-title {
+  padding-bottom: 15px;
+  background: #435d7d;
+  color: #fff;
+  padding: 16px 30px;
+  min-width: 100%;
+  margin: -20px -25px 10px;
+  border-radius: 3px 3px 0 0;
+}
+
+.search-box {
+  position: relative;
+  float: right;
+}
+
+.search-box i {
+  color: #a0a5b1;
+  position: absolute;
+  font-size: 19px;
+  top: 8px;
+  left: 10px;
+}
+
+.search-box input {
+  height: 34px;
+  border-radius: 20px;
+  padding-left: 35px;
+  border-color: #ddd;
+  box-shadow: none;
+}
+
+
+
+
+
+
+table.table td a.delete {
+  color: #F44336;
+}
+
+table.table td a.edit {
+  color: #FFC107;
+}
+
+.scrollable {
+  max-height: 66vh;
+  /* change ` overflow: scroll ` to ` overflow: auto ` if you only want vertical scroll */
+  overflow-y: scroll;
+}
+
+.table th {
+  position: sticky;
+  top: 0;
+  border: 0 !important;
+  background-color: #e7e9eb;
+  color: #495057;
+}
+
+h1#wework {
+  font-family: 'Lobster', cursive;
+  margin: 0;
+}
+
+body {
+  font-family: 'Kanit', sans-serif !important;
+}
+
+/* h1,h2,h3,h4,h5,p {
+  font-family: 'Kanit', sans-serif !important;
+} */
+
+.card-margin {
+  margin-bottom: 1.875rem;
+}
+
+.cardd {
+  border: 0;
+  box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+  -ms-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+}
+
+.cardd {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #ffffff;
+  background-clip: border-box;
+  border: 1px solid #e6e4e9;
+  border-radius: 8px;
+}
+
+.cardd .card-header.no-border {
+  border: 0;
+}
+
+.cardd .card-header {
+  background: none;
+  padding: 0 0.9375rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  min-height: 50px;
+}
+
+
+/*PREME ADD*/
+
+
+.contact-wrap {
+  -webkit-box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.2);
+  background: #fff;
+}
+
+.contact-wrap .col-form-label {
+  font-size: 14px;
+  margin: 0 0 10px 0;
+  display: inline-block;
+  padding: 0;
+}
+
+.content {
+  padding: 7rem 0;
+  background-color: var(--light-green);
+}
+
+.content {
+  padding: 7rem 0;
+  background-color: var(--light-green);
+}
+
+
+.btn.btn-primary {
+  background: #4d80e4;
+  color: #fff;
+  -webkit-box-shadow: 0 15px 30px 0 rgba(77, 128, 228, 0.2);
+  box-shadow: 0 15px 30px 0 rgba(77, 128, 228, 0.2);
+}

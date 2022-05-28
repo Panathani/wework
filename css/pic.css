@@ -1,0 +1,71 @@
+.upload {
+  width: 125px;
+  position: relative;
+  margin: auto;
+}
+
+.upload img {
+  border-radius: 50%;
+  border: 8px solid #DCDCDC;
+}
+
+.upload .round {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #00B4FF;
+  width: 32px;
+  height: 32px;
+  line-height: 33px;
+  text-align: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.upload .round input[type="file"] {
+  position: absolute;
+  transform: scale(2);
+  opacity: 0;
+}
+
+input[type=file]::-webkit-file-upload-button {
+  cursor: pointer;
+}
+
+.form-div {
+  margin-top: 100px;
+  border: 1px solid #e0e0e0;
+}
+
+#profileDisplay {
+  display: block;
+  height: 210px;
+  width: 210px;
+  margin: 0px auto;
+  border-radius: 50%;
+}
+
+.img-placeholder {
+  width: 210px;
+  color: white;
+  height: 100%;
+  background: black;
+  opacity: .7;
+  height: 210px;
+  border-radius: 50%;
+  z-index: 2;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+}
+
+.img-placeholder h4 {
+  margin-top: 40%;
+  color: white;
+}
+
+.img-div:hover .img-placeholder {
+  display: block;
+  cursor: pointer;
+}
