@@ -12,7 +12,7 @@ $id = $_SESSION['userID']
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>หน้าบริษัท · WeWork</title>
+    <title>ข้อมูลส่วนตัว · WeWork</title>
     <link href="css/main.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <!-- <link href="css/style2.css" rel="stylesheet" type="text/css" /> -->
